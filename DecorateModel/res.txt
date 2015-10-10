@@ -1,0 +1,7 @@
+装饰模式：动态的给一个对象添加一些额外的职责。
+
+BaseClass 顶层抽象类
+Person 被装饰的对象类，可封装一系列的固定属性的函数，继承于 BaseClass
+Decorate 装饰基类，内部存储一个将要装饰的对象，继承于 BaseClass
+DecorateBlouse，DecorateJeans 继承于 Decorate，根据需要给需要装饰的对象动态的添加功能
+
